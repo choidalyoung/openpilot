@@ -1425,15 +1425,22 @@ FW_VERSIONS = {
   CAR.KIA_SORENTO: {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00UMP LKAS AT USA LHD 1.01 1.01 95740-C6550 d01'
+      b'\xf1\x00UM2 LKAS AT KOR LHD 1.00 1.00 95740-C5580 Z62'
     ],
     (Ecu.abs, 0x7d1, None): [
       b'\xf1\x00UM ESC \x0c 12 \x18\x05\x06 58910-C6330'
+      b'\xf1\x00UM ESC \t 14 \x18\x04\x11 58910-C5360'
     ],
     (Ecu.fwdRadar, 0x7D0, None): [
       b'\xf1\x00UM__ SCC F-CUP      1.00 1.00 96400-C6500         '
+      b'\xf1\x00UM__ SCC F-CUP      1.00 1.00 96400-C5500         '
     ],
     (Ecu.transmission, 0x7e1, None): [
       b'\xf1\x87LDKUAA0348164HE3\x87www\x87www\x88\x88\xa8\x88w\x88\x97xw\x88\x97x\x86o\xf8\xff\x87f\x7f\xff\x15\xe0\xf1\x81U811\x00\x00\x00\x00\x00\x00\xf1\x00bcsh8p54  U811\x00\x00\x00\x00\x00\x00TUM4G33NL3V|DG'
+      b'\xf1\x00bcsh8p54  U0831\x00\x00\x00\x00\x00TUM2V22KL5\xaa`Z\x8c'
+      b'\xf1\x87MBKTD43740211HD2\x98\x88\x88\x88\x87www\x88\x99\xa8\x89w\x88\x97x\x88\x88\x98\x88W_\xfa\xffeU'
+      b'O\xff\xdb\x8c\xf1\x81U0831\x00\x00\x00\x00\x00\xf1\x00bcsh8p54  U0831\x00\x00\x00\x00\x00TUM2V22KL5'
+      b'\xaa`Z\x8c'
     ],
     (Ecu.engine, 0x7e0, None): [
       b'\xf1\x81640F0051\x00\x00\x00\x00\x00\x00\x00\x00'
