@@ -178,7 +178,7 @@ def get_car(logcan, sendcan, num_pandas=1):
 
   if candidate is None:
     cloudlog.warning("car doesn't match any fingerprints: %r", fingerprints)
-    candidate = "mock"
+    candidate = "KIA SORENTO GT LINE 2018"
 
   experimental_long = Params().get_bool("ExperimentalLongitudinalEnabled")
 
